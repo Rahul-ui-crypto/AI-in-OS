@@ -1,0 +1,20 @@
+{
+    "kids": {
+        "name": "Kids Profile",
+        "app_limits": {
+            "whatsapp.exe": 1,
+            "chrome.exe": 1,
+            "facebook.exe": 1
+        },
+        "is_default": true
+    },
+    "parent": {
+        "name": "Parent Profile",
+        "app_limits": {
+            "whatsapp.exe": 100,
+            "chrome.exe": 100,
+            "facebook.exe": 99
+        },
+        "is_default": false
+    }
+}
